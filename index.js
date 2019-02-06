@@ -2,5 +2,8 @@
 function lowerCaseDrivers(drivers) {
   const newDrivers = drivers.map(function(name){ return name.toLowerCase(); });
   return newDrivers;
+}
+
+function nameToAttributes(drivers) {
 
 }
