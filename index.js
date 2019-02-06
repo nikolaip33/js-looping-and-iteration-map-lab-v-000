@@ -11,7 +11,7 @@ function nameToAttributes(drivers) {
   return newDrivers;
 }
 
-function attritubesToPhrase() {
+function attributesToPhrase() {
   const newDrivers = drivers.map(function(name){ return name.toLowerCase(); });
   return newDrivers;
 }
