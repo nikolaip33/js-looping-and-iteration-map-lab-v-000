@@ -12,6 +12,6 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  const newDrivers = drivers.map(function(name){ return name.toLowerCase(); });
+  const newDrivers = drivers.map(function(driver){ return `${driver.name} is from ${driver.hometown}` });
   return newDrivers;
 }
