@@ -10,3 +10,8 @@ function nameToAttributes(drivers) {
   });
   return newDrivers;
 }
+
+function attritubesToPhrase() {
+  const newDrivers = drivers.map(function(name){ return name.toLowerCase(); });
+  return newDrivers;
+}
